@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta name="description" content="A cycling tour website for Munich">
+	<meta name="keywords" content="cycle, cycling, tour, city, eco-friendly, Munich">
+	<title>"Re-cycle"</title>
+	<link rel="stylesheet" href="recylcestyle.css">
+</head>
+
+<body class="bookpageImage">
+
+	<header>
+		<div class="nav-header">
+			<a href=index.html>
+				<h1>RE-CYCLE</h1>
+			</a>
+			<p id="saleline">An eco-friendly way to discover Munich</p>
+		</div>
+		<nav class="nav-navbar">
+			<ul>
+				<li><a href="tours.html">Tours</a></li>
+				<li><a href="book.html">Book</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<main class="bookMain">
+		<div class="bookText">
+			<h2>Book and Bike</h2>
+			<p>Just fill out the information below and you are all ready to go</p>
+
+			<fieldset>
+				<legend>Tour</legend>
+				<label for="date">Tour date</label>
+				<input type="date" name="date" required><br />
+				<label>Select</label>
+				<select name="tours" required>
+                    <option value="">Pick your tour</option>
+                    <option value="">English Garden + Japanese Garden</option>
+                    <option value="">City Centre</option>
+                    <option value="">Combo</option>
+                    <option value="">Custom</option>
+                </select>
+			</fieldset>
+
+			<p>Please fill out your contact information so we can send you an confirmtion
+				of the order.</p>
+
+			<fieldset>
+				<legend>Contact information</legend>
+				<label>Name:</label>
+				<input type="text" name="name" id="name" required><br/>
+				<label>Email:</label>
+				<input type="text" name="email" id="email" required><br/>
+				<label>Phone:</label>
+				<input type="text" name="phone" id="phone" required>
+			</fieldset>
+
+			<div class="btnLocation">
+				<button type="submit">Submit</button>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="tours.html">Tours</a></li>
+			<li><a href="book.html">Book</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</footer>
+
+</body>
+
+</html>
