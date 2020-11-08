@@ -1,0 +1,19 @@
+{
+  "name": "2020-11-08_ca_workflow2_juhi-saigal",
+  "version": "1.0.0",
+  "description": "Course Assignment Workflow 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xJuhix/2020-11-08_CA_Workflow2_Juhi-Saigal.git"
+  },
+  "author": "Juhi Saigal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xJuhix/2020-11-08_CA_Workflow2_Juhi-Saigal/issues"
+  },
+  "homepage": "https://github.com/xJuhix/2020-11-08_CA_Workflow2_Juhi-Saigal#readme"
+}
