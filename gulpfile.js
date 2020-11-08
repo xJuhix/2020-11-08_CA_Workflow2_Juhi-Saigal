@@ -53,6 +53,6 @@ function watch(){
     });
     gulp.watch('./sass/**/*.scss', css);
     gulp.watch('./app/**/*.html').on('change', browserSync.reload)
-   }
-   
+  }
+
 exports.watch = watch;
