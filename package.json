@@ -18,5 +18,11 @@
   "homepage": "https://github.com/xJuhix/2020-11-08_CA_Workflow2_Juhi-Saigal#readme",
   "dependencies": {
     "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
   }
 }
