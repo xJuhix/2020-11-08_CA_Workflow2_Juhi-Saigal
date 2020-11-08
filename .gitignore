@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # added node_modules to gitignore 
-*/node_modules/*
+node_modules/node_modules/
