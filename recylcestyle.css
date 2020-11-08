@@ -1,0 +1,422 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/*Global style*/
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url('../HTML&CSS_CA/fonts/open-sans/OpenSans-Regular.ttf')
+}
+
+@font-face {
+	font-family: "OpenSans-SemiboldItalic";
+	src: url('../HTML&CSS_CA/fonts/open-sans/OpenSans-SemiboldItalic.ttf');
+}
+
+@font-face {
+	font-family: "BerlinSansFB-Regualar";
+	src: url('../HTML&CSS_CA/fonts/BerlinSansFBRegular.ttf');
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 0px;
+	overflow: visible;
+	height: 100vh;
+}
+
+p {
+	font-family: "OpenSans-Regular";
+	font-size: 22px;
+	font-weight: 400;
+	color: #000000;
+	margin: 10px;
+}
+
+
+/*----------------Header---------------------*/
+
+header {
+	background-color: #388732;
+	color: white;
+	width: 100%;
+	position: relative;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.nav-header {
+	height: 130px;
+	width: 100%;
+	padding: 25px;
+}
+
+.nav-navbar {
+	background-color: grey;
+	border: none;
+	color: white;
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	float: left;
+	padding: 0px;
+	margin-left: 5%;
+}
+
+li a {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: "BerlinSansFB-Regualar";
+	margin: 10px;
+	color: white;
+	font-size: 40px;
+	font-weight: normal;
+	margin-top: 1%;
+}
+
+#saleline {
+	font-family: "OpenSans-SemiboldItalic";
+	font-size: 26px;
+	font-weight: 300;
+	color: white;
+	margin-top: 1%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration-color: #000000;
+}
+
+
+/*---------------------------Home-----------------------*/
+
+h2 {
+	font-family: "OpenSans-SemiboldItalic";
+	font-size: 24px;
+	color: #000000;
+	margin: 10px;
+	font-weight: normal;
+}
+
+.homepage {
+	display: flex;
+}
+
+.homepageText {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	float: center;
+	margin: auto;
+	margin-top: 150px;
+	background-color: lightgrey;
+	opacity: 100%;
+	color: black;
+	margin-bottom: 100px;
+}
+
+.homepageImage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url('../HTML&CSS_CA/images/bikes.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.homeMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+
+/*---------------------------Tours-----------------------*/
+
+.tours {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.tourText {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	max-width: 1300px;
+	margin-bottom: 30px;
+	background-color: lightgrey;
+	opacity: 90%;
+	color: black;
+}
+
+.tourpageImage {
+	background-image: url('../HTML&CSS_CA/images/bike-ally.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.tourMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: calc(100vh - 150px);
+}
+
+.row {
+	flex-direction: column;
+	height: auto;
+	max-width: 600px;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.toursImage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.imgTour {
+	width: 500px;
+	height: 250px;
+	margin: auto;
+	float: right;
+	padding-top: 30px;
+}
+
+
+/*---------------------------Book-----------------------*/
+
+#form {
+	max-width: 600px;
+	margin: auto;
+}
+
+fieldset {
+	margin: 50px;
+}
+
+label {
+	font-family: "OpenSans-Regular";
+	font-size: 22px;
+	;
+}
+
+input {
+	margin: 10px 0px;
+}
+
+.bookText {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: lightgrey;
+	opacity: 90%;
+	color: black;
+}
+
+.bookpageImage {
+	background-image: url('../HTML&CSS_CA/images/bikelane.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.bookMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: calc(100vh - 150px);
+}
+
+.btnLocation {
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: grey;
+	color: white;
+	border: 0px;
+	padding: 10px 20px;
+}
+
+button:hover {
+	background-color: green;
+	color: white;
+}
+
+
+/*---------------------------About + Contact-----------------------*/
+
+h4 {
+	font-family: "OpenSans-SemiboldItalic";
+	font-size: 24px;
+	color: #000000;
+	margin: 10px;
+	font-weight: normal;
+}
+
+.contactText {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	float: center;
+	margin: auto;
+	margin-top: 250px;
+	margin-bottom: 100px;
+	background-color: lightgrey;
+	opacity: 90%;
+	color: black;
+}
+
+.contactpageImage {
+	background-image: url('../HTML&CSS_CA/images/bike.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+.contactMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: calc(100vh - 150px);
+}
+
+.aboutText {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	background-color: lightgrey;
+	opacity: 90%;
+	color: black;
+	margin-bottom: 30px;
+}
+
+.aboutpageImage {
+	background-image: url('../HTML&CSS_CA/images/bike-sign.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+}
+
+.aboutMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 100%;
+	min-height: calc(100vh - 150px);
+}
+
+
+/*------------------------------Footer-----------------------*/
+
+footer {
+	background-color: grey;
+	border: none;
+	color: white;
+	overflow: hidden;
+	max-width: 100%;
+	margin-bottom: 0px;
+	bottom: 0;
+}
+
+
+/*---------------------------------Mobile devices-----------------------------------*/
+
+@media screen and (max-width: 1199px) {
+	.body {
+		margin: 10px;
+	}
+	.homepageText,
+	.tourText,
+	.bookText,
+	.contactText,
+	.aboutText {
+		margin-bottom: 30px;
+		max-width: 1000px;
+	}
+	.tours {
+		flex-direction: column;
+	}
+	.row {
+		flex-direction: column;
+		height: auto;
+		padding: 15px;
+		width: 100vw;
+	}
+	.imgTour {
+		width: 90vw;
+		max-width: 700px;
+		height: auto;
+	}
+	iframe {
+		width: auto;
+		max-width: 700px;
+		height: auto;
+	}
+}
