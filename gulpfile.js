@@ -7,7 +7,7 @@ const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync').create();
 
 
-//copying html files from app to dist folder
+//copy html files from app to dist folder
 gulp.task('html', function() {
     return gulp.src('app/**/*.html')
     .pipe(gulp.dest('dist'))
@@ -55,4 +55,4 @@ function watch(){
     gulp.watch('./app/**/*.html').on('change', browserSync.reload)
    }
    
-   exports.watch = watch;
+exports.watch = watch;
